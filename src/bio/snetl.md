@@ -29,44 +29,44 @@ adds to an Amazon S3 multipart upload.
 
 An example SNETL module:
 
-  INPUT_COLUMNS = ['id', 'email', 'address', 'created_at', 'first_name',
-    'last_name', 'last_seen']
-  
-  OUTPUT_COLUMNS = ['id', 'email', 'street1', 'street2', 'region', 'city',
-    'state', 'phone', 'country', 'postcode', 'created_at',
-    'first_name', 'last_name', 'last_seen']
-  
-  QUERY = """
-    SELECT users."id", users."email", users."address", users."createdAt",
-      users."first_name", users."last_name", users."last_seen"
-    FROM users;
-  """
-  
-  class UsersTransformer(Transformer):
-    """Transformer for the users table with additional data."""
-    def transform_address(self):
-      """Flatten user address json data into discrete columns"""
-      address_data = self.input.get('address')
-  
-      output = {
-        'street1': address_data.get('street1', ""),
-        'street2': address_data.get('street2', ""),
-        'region': address_data.get('region', ""),
-        'city': address_data.get('city', ""),
-        'state': address_data.get('state', ""),
-        'phone': address_data.get('phone', ""),
-        'country': address_data.get('country', ""),
-        'postcode': address_data.get('postcode', ""),
-      }
-      return output
-  
-  def etl():
-    with Extractor(QUERY, INPUT_COLUMNS) as extractor:
-      with Loader(S3_BUCKET, S3_KEY, OUTPUT_COLUMNS) as loader:
-        for row in extractor:
-          transformer = UsersTransformer(row, OUTPUT_COLUMNS)
-          transformed_row = transformer.transform()
-          loader.load(transformed_row)
+    INPUT_COLUMNS = ['id', 'email', 'address', 'created_at', 'first_name',
+      'last_name', 'last_seen']
+    
+    OUTPUT_COLUMNS = ['id', 'email', 'street1', 'street2', 'region', 'city',
+      'state', 'phone', 'country', 'postcode', 'created_at',
+      'first_name', 'last_name', 'last_seen']
+    
+    QUERY = """
+      SELECT users."id", users."email", users."address", users."createdAt",
+        users."first_name", users."last_name", users."last_seen"
+      FROM users;
+    """
+    
+    class UsersTransformer(Transformer):
+      """Transformer for the users table with additional data."""
+      def transform_address(self):
+        """Flatten user address json data into discrete columns"""
+        address_data = self.input.get('address')
+    
+        output = {
+          'street1': address_data.get('street1', ""),
+          'street2': address_data.get('street2', ""),
+          'region': address_data.get('region', ""),
+          'city': address_data.get('city', ""),
+          'state': address_data.get('state', ""),
+          'phone': address_data.get('phone', ""),
+          'country': address_data.get('country', ""),
+          'postcode': address_data.get('postcode', ""),
+        }
+        return output
+    
+    def etl():
+      with Extractor(QUERY, INPUT_COLUMNS) as extractor:
+        with Loader(S3_BUCKET, S3_KEY, OUTPUT_COLUMNS) as loader:
+          for row in extractor:
+            transformer = UsersTransformer(row, OUTPUT_COLUMNS)
+            transformed_row = transformer.transform()
+            loader.load(transformed_row)
   
 
 The SNETL framework has allowed us to quickly and efficiently make
