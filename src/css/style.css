@@ -1,29 +1,29 @@
 body {
-	background: #EEEEEE;
-	color: #111111;
+  background: #EEEEEE;
+  color: #111111;
 }
 
 p, h1, h2, h3, ol, ul, .intro {
-	max-width: 800px;
+  max-width: 800px;
 }
 
 body, p code {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 pre {
-	overflow-x: auto;
+  overflow-x: auto;
 }
 
 p img {
-	width: 100%;
+  width: 100%;
 }
 
 .intro {
   padding: 48px 0;
-	text-align: center;
+  text-align: center;
   font-family: Helvetica, Arial, Sans;
-	color: #EEEEEE;
-	background: forestgreen;
+  color: #EEEEEE;
+  background: forestgreen;
 }
 
