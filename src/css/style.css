@@ -3,7 +3,7 @@ body {
 	color: #111111;
 }
 
-p, h1, h2, h3, ol, ul {
+p, h1, h2, h3, ol, ul, .intro {
 	max-width: 800px;
 }
 
