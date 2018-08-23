@@ -3,6 +3,10 @@ body {
   color: #111111;
 }
 
+h1, h2, h3, {
+  font-family: Helvetica, Arial, Sans;
+}
+
 p, h1, h2, h3, ol, ul, pre, .intro {
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +29,6 @@ p img {
 .intro {
   padding: 48px 0;
   text-align: center;
-  font-family: Helvetica, Arial, Sans;
   color: #EEEEEE;
   background: forestgreen;
 }
