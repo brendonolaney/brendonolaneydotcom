@@ -1,5 +1,6 @@
 title: Brendon O'Laney - Store Locator
 author: Brendon O'Laney
+date: 2018-08-18
 css: ../css/style.css
 
 <div class="intro">
