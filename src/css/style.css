@@ -1,20 +1,23 @@
 body {
-  background: #EEEEEE;
-  color: #111111;
+  font-size: 22px;
+  font-family: Athelas, Calisto MT, Georgia, serif;
 }
 
 p, h1, h2, h3, ol, ul, pre, .intro {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 48rem;
+}
+
+h1, h2, h3, h4, h5, h6, .intro {
+  font-family: "Helvetica Neue", "Gill Sans Nova", Calibri, Lucida, sans-serif;
 }
 
 body, p code {
-  font-size: 22px;
 }
 
 pre {
-  font-size: 16px;
+  font-size: 0.8rem;
   overflow-x: auto;
 }
 
@@ -23,10 +26,9 @@ p img {
 }
 
 .intro {
-  padding: 48px 0;
+  padding: 2rem 0;
   text-align: center;
-  font-family: Helvetica, Arial, Sans;
-  color: #EEEEEE;
+  color: white;
   background: forestgreen;
 }
 
