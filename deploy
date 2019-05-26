@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cd ~/brendonolaneydotcom || exit 1
-./build && cp -R -f www/* /var/www/htdocs/www.brendonolaney.com/
-
