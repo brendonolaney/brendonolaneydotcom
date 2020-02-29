@@ -8,6 +8,12 @@ subtitle: Full Stack Web Developer
 
 ## Examples
 
+### Firm Dashboard
+
+An up-to-date metrics visualization for the legal business funnel.
+
+[more](./fd.html)
+
 ### Automation Engine
 
 An event-based publisher/subscriber solution in C# for dotnet core
