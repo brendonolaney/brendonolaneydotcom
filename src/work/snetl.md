@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: work
 title: SNETL
 subtitle: A memory-efficient ETL (Extract-Transform-Load) framework in Python
 ---

@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: work
 title: Brendon O'Laney
 subtitle: Resume
 ---

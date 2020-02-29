@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: work
 title: Automation Engine
 subtitle: An event-based publisher/subscriber solution in C# for dotnet core
 ---

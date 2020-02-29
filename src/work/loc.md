@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: work
 title: Store Locator
 subtitle: A system to find and sort locations distance in Javascript, C#, and PostgreSQL/PostGIS
 ---
