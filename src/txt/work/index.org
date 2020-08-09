@@ -1,38 +1,37 @@
----
-layout: index
-title: My Work
-subtitle: Full Stack Web Developer
----
+#+begin_intro
+* My Work
+** Full Stack Web Developer
+#+end_intro
 
-## [Resume](./resume.html)
+*** [[./resume.html][Resume]]
 
-## Examples
+*** Examples
 
-### Firm Dashboard
+**** Firm Dashboard
 
 An up-to-date metrics visualization for the legal business funnel.
 
-[more](./fd.html)
+[[./fd.html][more]]
 
-### Automation Engine
+**** Automation Engine
 
 An event-based publisher/subscriber solution in C# for dotnet core
 
-[more](./ae.html )
+[[./ae.html][more]]
 
-### SNETL
+
+**** SNETL
 
 A memory-efficient ETL (Extract-Transform-Load) framework in Python
 
-[more](./snetl.html )
+[[./snetl.html][more]]
 
-### Store Locator
+**** Store Locator
 
 A system to find and sort locations distance in Javascript, C#, and
 PostgreSQL/PostGIS
 
-[more](./loc.html )
+[[./loc.html][more]]
 
-* * *
 
-[Back](../index.html)
+[[../index.html][Back]]

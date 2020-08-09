@@ -4,6 +4,11 @@ title: Automation Engine
 subtitle: An event-based publisher/subscriber solution in C# for dotnet core
 ---
 
+#+begin_intro
+* Automation Engine
+** An event-based publisher/subscriber solution in C# for dotnet core
+#+end_intro
+
 The Automation Engine consists of three components:
 
 1. An event tracking framework with optional de-personalization for mirroring
@@ -17,5 +22,7 @@ running expensive database queries to generate mailing lists. It allows us to
 be more responsive (minutes instead of days) to changing conditions, and
 eliminates hundreds of man hours of tedious data processing.
 
-![Automation Engine data flowchart](../static/img/ae.png)
+[[../img/ae.png][Automation Engine data flowchart]]
 
+[[./index.html][Back]]
+[[../index.html][Home]]
