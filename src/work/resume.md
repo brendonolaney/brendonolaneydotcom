@@ -47,19 +47,21 @@ subtitle: Resume
 
 * * *
 
-#### Software Developer
+#### Senior Software Developer
 
 ##### [Clio] [1], Burnaby, BC, January 2019 - Present
 
-My first months at Clio were primarily spent analysing and optimizing the
-performance of the Ruby on Rails application. My work pays close attention to
-caching values, and optimizing database queries. I have also had the
-opportunity to do a significant refactor on a microservice written in Golang.
+My primary focus at Clio is being a value add to my team. I have been a part of,
+and led, projects such as:
 
-Since then I have had the opportunity to build a brand new feature, the [Firm
-Dashboard][1a]
+- A performance analysis and optimization of Ruby on Rails page load times,
+  database loads, and caching.
+- Developing a webhook microservice in GoLang
+- A brand new feature: the [Firm Dashboard][1a]
+- Rewriting a [report][1b] for performance.
 
 [1a]:./fd.html
+[1b]:./ipr.html
 
 * * *
 

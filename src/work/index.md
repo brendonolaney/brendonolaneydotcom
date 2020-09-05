@@ -8,6 +8,12 @@ subtitle: Full Stack Web Developer
 
 ## Examples
 
+### Invoice Payments Report
+
+A rewrite of a report for performance
+
+[more](./ipr.html)
+
 ### Firm Dashboard
 
 An up-to-date metrics visualization for the legal business funnel.
