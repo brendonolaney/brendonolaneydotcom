@@ -1,13 +1,15 @@
-#+begin_intro
-* Brendon O'Laney
-** Resume
-#+end_intro
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Resume
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
 
-*** Technologies
+* Technologies
 
 -----
 
-**** Day-to-day comfort
+** Day-to-day comfort
 
 - Ruby
 - Python
@@ -33,7 +35,7 @@
 - Cross-Browser Compatibility
 - Mobile First Thinking
 
-**** Experience with
+** Experience with
 
 - Golang
 - C
@@ -42,13 +44,13 @@
 - Backbone.js
 - D3
 
-*** Work Experience
+* Work Experience
 
 -----
 
-**** Software Developer
+** Software Developer
 
-***** [[https://www.clio.com/][Clio]], Burnaby, BC, January 2019 - Present
+*** [[https://www.clio.com/][Clio]], Burnaby, BC, January 2019 - Present
 
 My first months at Clio were primarily spent analyzing and optimizing the
 performance of the Ruby on Rails application. My work pays close attention to
@@ -60,9 +62,9 @@ Since then I have had the opportunity to build a brand new feature, the
 
 -----
 
-**** Software Developer
+** Software Developer
 
-***** [[https://www.socialnature.com/][SocialNature]], Vancouver, BC, April 2017 - October 2018
+*** [[https://www.socialnature.com/][SocialNature]], Vancouver, BC, April 2017 - October 2018
 
 I Worked initially to bring new features to the web site such as the Store
 Locator feature, and quickly moved into more mission critical tasks. My
@@ -74,9 +76,9 @@ Core, EntityFramework, PostgreSQL, Angular, jQuery, Foundation, Git, and AWS.
 
 -----
 
-**** Software Developer
+** Software Developer
 
-***** Coho Data, Vancouver, BC, August 2016 - March 2017
+*** Coho Data, Vancouver, BC, August 2016 - March 2017
 
 My responsibilities included developing API endpoints, and front end for the web
 GUI for the Coho Data storage appliance. The tech stack was Flask, jQuery,
@@ -86,9 +88,9 @@ of Flask), and a brand new front end in React.
 
 -----
 
-**** Web Developer
+** Web Developer
 
-***** [[https://www.fortinet.com/][Fortinet]] [3], Burnaby, BC, August 2012 - August 2016
+*** [[https://www.fortinet.com/][Fortinet]] [3], Burnaby, BC, August 2012 - August 2016
 
 At Fortinet I developed the Web interface for the FortiAuthenticator security
 appliance. The stack was primarily Python/Django, PostgreSQL, and jQuery.
@@ -97,9 +99,9 @@ level libraries in C in order to add new features.
 
 -----
 
-*** Education
+* Education
 
-**** Bachelor of Computing Science
+** Bachelor of Computing Science
 
 Simon Fraser University, Burnaby, BC, September 2009 - August 2012
 

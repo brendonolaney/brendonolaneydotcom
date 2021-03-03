@@ -1,7 +1,12 @@
-#+begin_intro
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Resume
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
+
 * SNETL
 ** A memory-efficient ETL (Extract-Transform-Load) framework in Python
-#+end_intro
 
 SNETL is modular and designed primarily to operate over large data sets
 and use a minimal amount of memory in order to keep costs low. It uses

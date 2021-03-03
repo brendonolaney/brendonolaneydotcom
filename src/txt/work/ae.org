@@ -1,14 +1,11 @@
----
-layout: work
-title: Automation Engine
-subtitle: An event-based publisher/subscriber solution in C# for dotnet core
----
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Automation Engine
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
 
-#+begin_intro
-* Automation Engine
-** An event-based publisher/subscriber solution in C# for dotnet core
-#+end_intro
-
+* An event-based publisher/subscriber solution in C# for dotnet core
 The Automation Engine consists of three components:
 
 1. An event tracking framework with optional de-personalization for mirroring

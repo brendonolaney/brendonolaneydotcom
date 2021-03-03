@@ -1,32 +1,36 @@
-#+begin_intro
-* My Work
-** Full Stack Web Developer
-#+end_intro
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: My Work
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
 
-*** [[./resume.html][Resume]]
+* Full Stack Web Developer
 
-*** Examples
+** [[./resume.html][Resume]]
 
-**** Firm Dashboard
+** Examples
+
+*** Firm Dashboard
 
 An up-to-date metrics visualization for the legal business funnel.
 
 [[./fd.html][more]]
 
-**** Automation Engine
+*** Automation Engine
 
 An event-based publisher/subscriber solution in C# for dotnet core
 
 [[./ae.html][more]]
 
 
-**** SNETL
+*** SNETL
 
 A memory-efficient ETL (Extract-Transform-Load) framework in Python
 
 [[./snetl.html][more]]
 
-**** Store Locator
+*** Store Locator
 
 A system to find and sort locations distance in Javascript, C#, and
 PostgreSQL/PostGIS

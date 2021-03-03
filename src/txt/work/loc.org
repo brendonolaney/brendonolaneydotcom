@@ -1,7 +1,11 @@
-#+begin_intro
-* Store Locator
-** A system to find and sort locations distance in Javascript, C#, and PostgreSQL/PostGIS
-#+end_intro
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Store Locator
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
+
+* A system to find and sort locations distance in Javascript, C#, and PostgreSQL/PostGIS
 
 The store locator is unique in that it does not rely entirely on one service for it's
 operation. Whenever an address is added into the database, the [[./ae.html][Automation Engine]]

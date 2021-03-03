@@ -1,6 +1,9 @@
-#+begin_intro
-* Brendon O'Laney
-#+end_intro
+#+TITLE: Brendon O'Laney
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en
+#+OPTIONS: author:nil num:nil
+
 Hi!
 
 I'm a full stack web developer. When I'm not working I also like
