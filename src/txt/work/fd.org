@@ -13,7 +13,8 @@ for rendering in a graph. I built it with modularity in mind so that new
 infrastructure may be added and used as a new data source or data store in the
 future.
 
-[[../static/img/fd.png][Firm Dashboard Interface]]
+[[../img/fd.png][Firm Dashboard Interface]]
+
 (Image courtesy Clio)
 
 [[./index.html][Back]]
