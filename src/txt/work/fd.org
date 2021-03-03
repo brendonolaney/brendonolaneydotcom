@@ -1,8 +1,11 @@
----
-layout: work
-title: Firm Dashboard
-subtitle: A metrics calculation and storage system
----
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Firm Dashboard
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en-CA
+#+OPTIONS: author:nil num:nil
+
+* A metrics calculation and storage system
 
 The firm dashboard is a system that I implemented for Clio. It is an on-demand
 system that gathers data, transforms it, and reduces it into a set of metrics
@@ -10,6 +13,8 @@ for rendering in a graph. I built it with modularity in mind so that new
 infrastructure may be added and used as a new data source or data store in the
 future.
 
-![Firm Dashboard Interface](../static/img/fd.png)
+[[../static/img/fd.png][Firm Dashboard Interface]]
 (Image courtesy Clio)
 
+[[./index.html][Back]]
+[[../index.html][Home]]

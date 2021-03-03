@@ -1,0 +1,12 @@
+#+TITLE: Brendon O'Laney
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en-CA
+#+OPTIONS: author:nil num:nil
+
+Hi!
+
+I'm a full stack web developer. When I'm not working I also like to collect old
+Nintendo equipment and interesting wristwatches. Feel free to [[mailto:brendon@brendonolaney.com][contact me]].
+
+[[./work/index.html][My work]]

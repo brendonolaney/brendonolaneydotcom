@@ -1,14 +1,15 @@
----
-layout: work
-title: Brendon O'Laney
-subtitle: Resume
----
+#+TITLE: Brendon O'Laney
+#+SUBTITLE: Resume
+#+AUTHOR: Brendon O'Laney
+#+EMAIL: brendon@brendonolaney.com
+#+LANGUAGE: en-CA
+#+OPTIONS: author:nil num:nil
 
-### Technologies
+* Technologies
 
-* * *
+-----
 
-#### Day-to-day comfort
+** Day-to-day comfort
 
 - Ruby
 - Python
@@ -34,7 +35,7 @@ subtitle: Resume
 - Cross-Browser Compatibility
 - Mobile First Thinking
 
-#### Experience with
+** Experience with
 
 - Golang
 - C
@@ -43,13 +44,13 @@ subtitle: Resume
 - Backbone.js
 - D3
 
-### Work Experience
+* Work Experience
 
-* * *
+-----
 
-#### Senior Software Developer
+** Senior Software Developer
 
-##### [Clio] [1], Burnaby, BC, January 2019 - Present
+*** [[https://www.clio.com/][Clio]], Burnaby, BC, January 2019 - Present
 
 My primary focus at Clio is being a value add to my team. I have been a part of,
 and led, projects such as:
@@ -57,58 +58,49 @@ and led, projects such as:
 - A performance analysis and optimization of Ruby on Rails page load times,
   database loads, and caching.
 - Developing a webhook microservice in GoLang
-- A brand new feature: the [Firm Dashboard][1a]
-- Rewriting a [report][1b] for performance.
+- A brand new feature: the [[./fd.html][Firm Dashboard]]
+- Rewriting the [[./ipr.html][Invoice Payments Report]] for performance.
 
-[1a]:./fd.html
-[1b]:./ipr.html
+** Software Developer
 
-* * *
-
-#### Software Developer
-
-##### [SocialNature] [2], Vancouver, BC, April 2017 - October 2018
+*** [[https://www.socialnature.com/][SocialNature]], Vancouver, BC, April 2017 - October 2018
 
 I Worked initially to bring new features to the web site such as the Store
 Locator feature, and quickly moved into more mission critical tasks. My
 greatest achievement was the Automation Engine which enabled the company to be
 much more responsive to customer demand. We used a variant of the Agile
-methodolgy that focused on one week sprints, with a strong commitment to
+methodology that focused on one week sprints, with a strong commitment to
 delivering promised units of work. The tech stack was C#, Dotnet Core, ASP.NET
 Core, EntityFramework, PostgreSQL, Angular, jQuery, Foundation, Git, and AWS.
 
-* * *
+-----
 
-#### Software Developer
+** Software Developer
 
-##### Coho Data, Vancouver, BC, August 2016 - March 2017
+*** Coho Data, Vancouver, BC, August 2016 - March 2017
 
-My responsbilities included developing API endpoints, and front end for the web
+My responsibilities included developing API endpoints, and front end for the web
 GUI for the Coho Data storage appliance. The tech stack was Flask, jQuery,
 Handlebars, and Backbone.js. We also began work on a ground-up
 re-implementation of the UI featuring an API defined in Swagger (still on top
 of Flask), and a brand new front end in React.
 
-* * *
+-----
 
-#### Web Developer
+** Web Developer
 
-##### [Fortinet] [3], Burnaby, BC, August 2012 - August 2016
+*** [[https://www.fortinet.com/][Fortinet]], Burnaby, BC, August 2012 - August 2016
 
 At Fortinet I developed the Web interface for the FortiAuthenticator security
 appliance. The stack was primarily Python/Django, PostgreSQL, and jQuery.
 However, I found it at times necessary to modify, or write operating system
 level libraries in C in order to add new features.
 
-* * *
+-----
 
-### Education
+* Education
 
-#### Bachelor of Computing Science
+** Bachelor of Computing Science
 
 Simon Fraser University, Burnaby, BC, September 2009 - August 2012
-
-[1]: https://www.clio.com/
-[2]: https://www.socialnature.com/
-[3]: https://www.fortinet.com/
 
