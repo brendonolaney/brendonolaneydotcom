@@ -20,3 +20,6 @@ of resources. To establish correctness we created a complete set of inputs and
 outputs and built automated tests to enforce them. Once build was complete we
 did a final round of performance measurements and the result was a 1000%
 decrease in run time for the report.
+
+[[./index.html][Back]]
+[[../index.html][Home]]
