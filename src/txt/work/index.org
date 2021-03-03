@@ -11,6 +11,12 @@
 
 ** Examples
 
+*** Invoice Payments Report
+
+A rewrite of a report for performance
+
+[[./ipr.html][more]]
+
 *** Firm Dashboard
 
 An up-to-date metrics visualization for the legal business funnel.
