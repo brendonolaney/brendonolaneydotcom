@@ -8,10 +8,10 @@
 * SNETL
 ** A memory-efficient ETL (Extract-Transform-Load) framework in Python
 
-SNETL is modular and designed primarily to operate over large data sets
-and use a minimal amount of memory in order to keep costs low. It uses
-PostgreSQL streaming, and Amazon S3 multipart uploads to process data on
-a line-by-line basis.
+SNETL is modular and designed primarily to operate over large data sets and use
+a minimal amount of memory in order to keep costs low. It uses PostgreSQL
+streaming, and Amazon S3 multipart uploads to process data on a line-by-line
+basis.
 
 A SNETL module has four main components:
 
@@ -21,12 +21,12 @@ A SNETL module has four main components:
 3. A transformer class.
 4. An ordered list of output column.
 
-The extractor performs a database query which is streamed in one row at
-a time and transformed into a dictionary using the ordered list. Then
-the dictionary is fed into a custom transformer class which is inspired
-by Django Model Forms. The base class for the transformer handles common
-operations such as data sanitization. Finally the loader creates, or
-adds to an Amazon S3 multipart upload.
+The extractor performs a database query which is streamed in one row at a time
+and transformed into a dictionary using the ordered list. Then the dictionary is
+fed into a custom transformer class which is inspired by Django Model Forms. The
+base class for the transformer handles common operations such as data
+sanitization. Finally the loader creates, or adds to an Amazon S3 multipart
+upload.
 
 An example SNETL module:
 
@@ -71,11 +71,11 @@ def etl():
         loader.load(transformed_row)
 #+END_SRC
 
-The SNETL framework has allowed us to quickly and efficiently make
-intelligence data available to operations using data visualization
-solutions such as Amazon Quicksight.  Since its introduction we have
-seen a dramatic decrease in amount of developer time devoted to running
-database queries in order to surface intelligence data.
+The SNETL framework has allowed us to quickly and efficiently make intelligence
+data available to operations using data visualization solutions such as Amazon
+Quicksight.  Since its introduction we have seen a dramatic decrease in amount
+of developer time devoted to running database queries in order to surface
+intelligence data.
 
 [[./index.html][Back]]
 [[../index.html][Home]]
