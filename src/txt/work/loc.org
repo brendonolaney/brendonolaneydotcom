@@ -17,7 +17,7 @@ front end it overlays our data on top of a google map. However, since the data
 is ours, it would be trivial to switch to another service for visualization such
 as Apple Maps, or OpenStreetMap should usage terms change in the future.
 
-[[../img/loc.png][Store Locator interface]]
+[[../img/loc.png]]
 
 [[./index.html][Back]]
 [[../index.html][Home]]
