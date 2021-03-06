@@ -2,7 +2,7 @@
 
 set -e
 
-for file in src/**/*
+for file in $(find src -type f)
 do
 
     input_dir="$(dirname "${file}")"
