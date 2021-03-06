@@ -1,46 +1,29 @@
 #!/bin/sh
 
-render_file() {
-    current_dir="${1}"
-    page="${2}"
-    output_dir="./www/${current_dir#./src/txt/}"
-    output_filepath="./www/${page#./src/txt/}"
-    output_filepath="${output_filepath%.org}.html"
+set -e
 
-    mkdir -p "${output_dir}"
-    printf "Generating %s\n" "${output_filepath}"
-    body=$(pandoc --standalone --from org --to html5 "${page}")
-    printf "%s" "${body}" > "${output_filepath}"
-}
+for file in src/**/*
+do
+    printf "rendering ./%s as " "${file}"
 
-render_dir() {
-    current_dir="${1}"
-    for page in "${current_dir}"*.org
-    do
-        render_file "${current_dir}" "${page}"
-    done
-}
+    input_dir="$(dirname "${file}")"
+    input_file="$(basename "${file}")"
 
-render_html() {
-    render_dir ./src/txt/
-    for dir in ./src/txt/**/
-    do
-        render_dir "${dir}"
-    done
-}
+    output_dir="./www/${input_dir#./src/}"
+    mkdir -p "$output_dir"
 
-copy_statics() {
-    mkdir -p ./www
-    cp -R ./src/img ./www
-}
+    case "${input_file}" in
+        *.org)
+            output_file="${input_file%.org}.html"
+            pandoc --standalone --from org --to html5 --output="${output_dir}/${output_file}" "${file}"
+            printf "%s" "${output_dir}/${output_file}"
+            ;;
+        *)
+            output_file="${input_file}"
+            cp "${file}" "./www/${file#./src/}"
+            printf "%s" "${output_dir}/${output_file}"
+            ;;
+    esac
 
-clean() {
-    rm -rf www
-}
-
-main() {
-    render_html
-    copy_statics
-}
-
-main
+    printf "\n"
+done

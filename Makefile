@@ -1,4 +1,4 @@
-site:
+site: clean
 	sh ./build.sh
 
 clean:
